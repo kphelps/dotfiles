@@ -44,3 +44,12 @@ cp -r ../gnome-terminal-colors/colors/* colors
 popd
 
 mkdir -p ~/sandbox ~/dev
+
+pushd "${DOTFILES_DIR}/i3"
+autoreconf --force --install
+rm -rf build/
+mkdir -p build && cd build/
+../configure --prefix=/usr --sysconfdir=/etc
+make
+sudo make install
+popd
