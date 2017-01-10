@@ -1,0 +1,14 @@
+"let g:spf13_keep_trailing_whitespace = 1
+
+let g:airline_powerline_fonts=1
+
+let g:spf13_bundle_groups=['general', 'writing', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'haskell', 'go',]
+
+let g:spf13_no_easyWindows = 1
+
+if exists('g:spf13_no_easyWindows')
+    map <C-J> <C-W>j
+    map <C-K> <C-W>k
+    map <C-L> <C-W>l
+    map <C-H> <C-W>h
+endif

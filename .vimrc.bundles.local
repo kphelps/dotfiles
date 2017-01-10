@@ -1,0 +1,12 @@
+Bundle 'morhetz/gruvbox'
+Bundle 'kergoth/vim-bitbake'
+
+if has('nvim')
+    Bundle 'honza/vim-snippets'
+    Bundle 'Shougo/deoplete.nvim'
+    Bundle 'Shougo/neoinclude.vim'
+    Bundle 'Shougo/neosnippet'
+    Bundle 'Shougo/neosnippet-snippets'
+    Bundle 'zchee/deoplete-jedi'
+    Bundle 'zchee/deoplete-clang'
+endif
