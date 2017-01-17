@@ -1,0 +1,6 @@
+[push]
+	default = current
+[core]
+	editor = vim
+[rebase]
+	autoStash = true
