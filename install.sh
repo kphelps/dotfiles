@@ -17,7 +17,7 @@ sudo dnf install -y --best --allowerasing "${PACKAGES[@]}"
 git submodule update --init --recursive
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sh <(curl https://j.mp/spf13-vim3 -L)
+sh <(curl https://raw.githubusercontent.com/kphelps/spf13-vim/3.0/bootstrap.sh -L)
 
 for vimfile in .vim*; do
     ln -sf "${DOTFILES_DIR}/${vimfile}" "${HOME}/${vimfile}"

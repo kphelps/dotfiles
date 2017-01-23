@@ -2,6 +2,7 @@ set nofoldenable
 set nospell
 
 "autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+autocmd FileType ruby autocmd BufWritePre <buffer> if !exists('g:spf13_keep_trailing_whitespace') | call StripTrailingWhitespace() | endif
 
 autocmd Filetype go setlocal nolist
 
