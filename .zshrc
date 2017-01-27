@@ -106,5 +106,3 @@ alias vim="nvim"
 
 export GOPATH=/home/kphelps/sandbox/gopath
 export PATH="${GOPATH}/bin:${PATH}"
-
-source /home/kphelps/.starryfwrc

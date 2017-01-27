@@ -4,3 +4,9 @@
 [submodule "i3"]
 	path = i3
 	url = git@github.com:Airblader/i3.git
+[submodule "rofi"]
+	path = rofi
+	url = git@github.com:DaveDavenport/rofi.git
+[submodule "i3blocks"]
+	path = i3blocks
+	url = git@github.com:vivien/i3blocks.git
